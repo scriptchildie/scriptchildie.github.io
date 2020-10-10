@@ -1,7 +1,7 @@
 
 # About Me~~~
 
-*Cybersecurity professional 
-*Cybersecurity enthusiast
-*OSCP
+* Cybersecurity professional 
+* Cybersecurity enthusiast
+* OSCP
 
